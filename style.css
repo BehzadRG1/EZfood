@@ -115,6 +115,16 @@ hr{
     height: 60px;
 }
 
+.card-title-burger{
+    width: 125px;
+    height: 80px;
+}
+
+.card-title-drink{
+    width: 80px;
+    height: 130px;
+}
+
 .shop-btn{
     background-color: greenyellow;
     border-radius: 7px;

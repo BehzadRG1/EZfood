@@ -32,10 +32,13 @@
             <a class="nav-link fs-5 text" href="#home">Home</a>
           </li>
           <li class="nav-item">
+            <a class="nav-link fs-5 text" href="#about-us">About Us</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link fs-5 text" href="#menu">Menu</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link fs-5 text" href="#contact-us">Contact us</a>
+            <a class="nav-link fs-5 text" href="#contact-us">Contact Us</a>
           </li>
         </ul>
         <!-- <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -145,7 +148,7 @@
 
   <!-- about us -->
 
-  <div class="about">
+  <div class="about" id="about-us">
     <div class="about-text">
       <h2>About Us</h2>
 
@@ -194,6 +197,10 @@
           aria-controls="pills-burgers" aria-selected="false">Burgers</a>
       </li>
       <li class="nav-item">
+        <a class="nav-link fs-5" id="pills-other-tab" data-toggle="pill" href="#pills-other" role="tab"
+          aria-controls="pills-other" aria-selected="false">Other Dishes</a>
+      </li>
+      <li class="nav-item">
         <a class="nav-link fs-5" id="pills-drinks-tab" data-toggle="pill" href="#pills-drinks" role="tab"
           aria-controls="pills-drinks" aria-selected="false">Drinks</a>
       </li>
@@ -212,7 +219,31 @@
           <div class="card text-white bg-danger mb-3" style="max-width: 12rem;">
             <div class="card-header">Pepperoni</div>
             <div class="card-body">
-              <img class="card-title" src="./pngimages/pizza_resized.png">
+              <img class="card-title" src="./pngimages/pizza1.png">
+              <p class="card-text">Some quick example text <b>$13</b></p>
+              <button type="button" class="shop-btn">+ order now</button>
+            </div>
+          </div>
+          <div class="card text-white bg-danger mb-3" style="max-width: 12rem;">
+            <div class="card-header">Pepperoni</div>
+            <div class="card-body">
+              <img class="card-title" src="./pngimages/pizza2.png">
+              <p class="card-text">Some quick example text <b>$13</b></p>
+              <button type="button" class="shop-btn">+ order now</button>
+            </div>
+          </div>
+          <div class="card text-white bg-danger mb-3" style="max-width: 12rem;">
+            <div class="card-header">Pepperoni</div>
+            <div class="card-body">
+              <img class="card-title" src="./pngimages/pizza3.png">
+              <p class="card-text">Some quick example text <b>$13</b></p>
+              <button type="button" class="shop-btn">+ order now</button>
+            </div>
+          </div>
+          <div class="card text-white bg-danger mb-3" style="max-width: 12rem;">
+            <div class="card-header">Pepperoni</div>
+            <div class="card-body">
+              <img class="card-title" src="./pngimages/pngaaa.com-521170.png">
               <p class="card-text">Some quick example text <b>$13</b></p>
               <button type="button" class="shop-btn">+ order now</button>
             </div>
@@ -225,10 +256,42 @@
               <button type="button" class="shop-btn">+ order now</button>
             </div>
           </div>
+        </div>
+      </div>
+      <div class="tab-pane fade" id="pills-burgers" role="tabpanel" aria-labelledby="pills-burgers-tab">
+        <div class="row row-cols-1 row-cols-md-2 d-flex justify-content-center ">
           <div class="card text-white bg-danger mb-3" style="max-width: 12rem;">
-            <div class="card-header">Pepperoni</div>
+            <div class="card-header">EZ Special</div>
             <div class="card-body">
-              <img class="card-title" src="./pngimages/pizza_resized.png">
+              <img class="card-title-burger" src="./pngimages/welcome-patty-burger-patty-burger-26.png">
+              <p class="card-text">Some quick example text <b>$13</b></p>
+              <button type="button" class="shop-btn">+ order now</button>
+            </div>
+          </div>
+          <div class="card text-white bg-danger mb-3" style="max-width: 12rem;">
+            <div class="card-header">Burger</div>
+            <div class="card-body">
+              <img class="card-title-burger" src="./pngimages/burger1.png">
+              <p class="card-text">Some quick example text <b>$13</b></p>
+              <button type="button" class="shop-btn">+ order now</button>
+            </div>
+          </div>
+          <div class="card text-white bg-danger mb-3" style="max-width: 12rem;">
+            <div class="card-header">Burger</div>
+            <div class="card-body">
+              <img class="card-title-burger" src="./pngimages/chickenBurger.png">
+              <p class="card-text">Some quick example text <b>$13</b></p>
+              <button type="button" class="shop-btn">+ order now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="tab-pane fade" id="pills-other" role="tabpanel" aria-labelledby="pills-other-tab">
+        <div class="row row-cols-1 row-cols-md-2 d-flex justify-content-center ">
+          <div class="card text-white bg-danger mb-3" style="max-width: 12rem;">
+            <div class="card-header">Spagetti</div>
+            <div class="card-body">
+              <img class="card-title" src="./pngimages/delicious-pasta-png-image-purepng-transparent-3.png">
               <p class="card-text">Some quick example text <b>$13</b></p>
               <button type="button" class="shop-btn">+ order now</button>
             </div>
@@ -251,10 +314,28 @@
           </div>
         </div>
       </div>
-      <div class="tab-pane fade" id="pills-burgers" role="tabpanel" aria-labelledby="pills-burgers-tab">...</div>
-      <div class="tab-pane fade" id="pills-drinks" role="tabpanel" aria-labelledby="pills-drinks-tab">...</div>
-    </div>
+      <div class="tab-pane fade" id="pills-drinks" role="tabpanel" aria-labelledby="pills-drinks-tab">
+        <div class="row row-cols-1 row-cols-md-2 d-flex justify-content-center ">
+          <div class="card text-white bg-danger mb-3" style="max-width: 12rem;">
+            <div class="card-header">Coca Cola</div>
+            <div class="card-body">
+              <img class="card-title-drink" src="./pngimages/coca-cola-can.png">
+              <!-- <p class="card-text"><b>$13</b></p> -->
+              <button type="button" class="shop-btn">+ order now</button>
+            </div>
+          </div>
+          <div class="card text-white bg-danger mb-3" style="max-width: 12rem;">
+            <div class="card-header">Coca Cola</div>
+            <div class="card-body">
+              <img class="card-title-drink" src="./pngimages/coca-cola-glass.png">
+              <!-- <p class="card-text"><b>$13</b></p> -->
+              <button type="button" class="shop-btn">+ order now</button>
+            </div>
+          </div>
 
+        </div>
+      </div>
+    </div>
     <div class="menu-btn-box">
       <button class="menu-btn">visit our menu ...</button>
     </div>

@@ -16,8 +16,23 @@ hr{
     margin-left: 10px;
 }
 
+.nav-link-menu{
+    color: #fdaf1f;
+    font-size:large;
+    font-weight: bold ;
+}
+
 .nav-item{
     margin-left: 15px;
+}
+
+
+.nav-pills .nav-link.active {
+    background-color: #fdaf1f
+}
+
+.card{
+    background-color: #92060ff3;
 }
 
 
@@ -329,7 +344,7 @@ hr{
 }
 
 .shop-btn{
-    background-color: greenyellow;
+    background-color: #f5c529;
     border-radius: 7px;
     border: 3px solid rgb(35, 54, 161);
 }
@@ -376,11 +391,10 @@ hr{
 }
 
 .contactUs{
-    width: 90%;
     margin: auto;
     align-items: center;
     text-align: center;
-    background:linear-gradient(rgba(0,0,0,0.1), rgba(25, 2, 66, 0.6)) ;
+    background:linear-gradient(#2621211a, #8601015c);
 }
 
 .contactUs h2{
@@ -389,7 +403,7 @@ hr{
 }
 
 .contactUs .number{
-    color: chocolate;
+    color: #fdaf1f;
     width: 30%;
     margin: 30px;
     font-style: italic;
@@ -397,7 +411,7 @@ hr{
 }
 
 .contactUs .socials{
-    color: chocolate;
+    color: #fdaf1f;
     width: 30%;
     margin: 30px;
     font-style: italic;
@@ -409,7 +423,7 @@ hr{
 }
 
 .contactUs .address{
-    color: chocolate;
+    color: #fdaf1f;
     width: 30%;
     margin: 30px;
     font-style: italic;

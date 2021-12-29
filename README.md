@@ -18,7 +18,7 @@ This is the final project of CS50 course. It is a simple food ordering website i
 
 ## How some of the features work
 - Some components in bootstrap are customized to fit the needs in the current project. For example we used the basic nav bar component and then changed it in a way that we it could alter the state of the page when clicking on different sections.
-- Ordering method was implemented using java script, we basically added event listeners and defined some functions to update, show, check and hide the cart. By clicking on the button "order now" placed under the card of each item, it gets added to cart and when the user is ready to pay for them, he can click on the button on the top right corner to complete his order. Additionally, he can alter the number of each item in his cart (by clicking on - and + buttons). Furthermore, by clicking on the checkout button, he gets redirected to another webpage where he is asked to enter his address and email and then the process is complete. 
+- Ordering method was implemented using java script, we basically added event listeners and defined some functions to update, show, check and hide the cart. By clicking on the button "order now" placed under the card of each item, it gets added to cart and when the user is ready to pay for them, he can click on the button on the top right corner to complete his order. Additionally, he can alter the number of each item in his cart (by clicking on - and + buttons). Furthermore, by clicking on the checkout button, he gets redirected to another webpage where he is asked to enter his address and telephone number and then the process is complete. 
 
 ## Possible improvements
 - provide this ability for the users to write reviews and rate the items.
